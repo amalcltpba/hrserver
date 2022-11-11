@@ -1,0 +1,22 @@
+{
+  "name": "hrserver",
+  "version": "1.0.0",
+  "description": "Hr solution server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalcltpba/hrserver.git"
+  },
+  "author": "amal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amalcltpba/hrserver/issues"
+  },
+  "homepage": "https://github.com/amalcltpba/hrserver#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
