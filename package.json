@@ -4,6 +4,7 @@
   "description": "Hr solution server",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/amalcltpba/hrserver#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
   }
 }
